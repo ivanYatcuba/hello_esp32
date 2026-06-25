@@ -2,6 +2,7 @@
 #define ILEDPATTERN_HPP
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "blinkers/IBlinker.hpp"
 
 using AbortPredicate = bool (*)();
 
